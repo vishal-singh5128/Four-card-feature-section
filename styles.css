@@ -1,0 +1,226 @@
+body
+{   padding: 30px 0 0 0;
+    background-color: #FAFAFA;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h2
+{   color: #56555A;
+    font-weight: 400;
+    margin: 0.625rem 0 ;
+
+}
+
+p
+{   color: #A5A4A9;
+
+}
+
+h1
+{   color: #4E5162;
+    font-weight: 600;
+    margin: 0.625rem 0 ;
+
+}
+
+main
+{   position: relative;
+    margin: 220px 0 0 0;
+    top: 0;
+    left: 0;
+    height: 30vh;
+
+}
+
+strong
+{   color: #4A495B;
+
+}
+
+.heading p
+{   width: 35%;
+    margin-left: 32%;
+
+}
+
+.super
+{   height: 30vh;
+    width:20vw;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-160%,-50%);
+    background-image: url(icon-supervisor.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 6.5% right 11.92%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border-top: solid 4px #47D1D1;
+    -webkit-box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);
+    -moz-box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);
+    box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);
+}
+
+.team
+{   height: 30vh;
+    width:20vw;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-115%);
+    background-image: url(icon-team-builder.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 6.5% right 11.92%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border-top: solid 4px #EA5453;
+    -webkit-box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);
+    -moz-box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);
+    box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);    
+}
+
+.karma
+{   height: 30vh;
+    width:20vw;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-image: url(icon-karma.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 6.5% right 11.92%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border-top: solid 4px #FBAD4B; 
+    -webkit-box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);
+    -moz-box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);
+    box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);   
+}
+
+.calc
+{   height: 30vh;
+    width:20vw;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(60%,-50%);
+    background-image: url(icon-calculator.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 6.5% right 11.92%;
+    background-color: #FFFFFF;
+    border-radius: 5px;    
+    border-top: solid 4px #549CF0;
+    -webkit-box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);
+    -moz-box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);
+    box-shadow: 5px 13px 12px 0px rgba(221,229,240,1);
+}
+
+
+.attribution
+{   font-size: 14px;
+    text-align: center; 
+    margin-top: 15rem;    
+}
+
+.attribution a 
+{   color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width:480px) and (min-width:320px) 
+{
+*
+{  
+    padding: 0.625rem;  
+
+
+}
+
+body
+{   text-align: initial;
+
+}
+
+
+h1
+{   margin: auto;
+    font-size: 2rem;
+}
+
+h2 
+{
+    margin: auto;   
+    font-size: 1.5rem;
+}
+
+strong
+{   font-size: 1.17rem;
+
+}
+
+main
+{   align-content: left;
+
+}
+
+p
+{    font-size: 1.25rem;
+
+}
+
+.heading p
+{   width: 100%;
+    margin: 0;
+   
+
+}
+
+.super
+{   position: absolute;
+    top: 0%;
+    left: 81%;
+    transform: translate(-81%,-69%);
+    width: 90%;
+
+}
+
+.team
+{   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    width: 90%;
+
+}
+
+.karma
+{   width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,105%);
+
+}
+
+.calc
+{   width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,215%);
+
+}
+
+.attribution
+{   width: 90%;
+    position: absolute;
+    top: 146%;
+    left: 50%;
+    transform: translate(-50%,215%);
+
+}
+}
